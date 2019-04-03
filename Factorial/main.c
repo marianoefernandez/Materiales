@@ -1,31 +1,28 @@
+#include <stdio.h>
+int factorial(int x, int y);
 int main()
 {
-    int a , b, c, d;
-    unsigned long long factoriala = 1, factorialb = 1;
+int a, b , r1 , r2;
+printf("\nIngrese numero:");
+scanf("%d",&a);
+printf("\nIngrese otro numero:");
+scanf("%d",&b);
+r1 , r2=factorial(a , b);
+printf("\nEl factorial de A es %d",r1);
+printf("\nEl factorial de B es %d",r2);
+}
+int factorial(int x, int y)
+{
+int r1;
+int r2;
 
-    printf("Pone un factorial: ");
-    scanf("%d",&a);
-    printf ("Pone otro factorial: ");
-    scanf("%d",&b);
+if(x==1)
+return 1;
+r1= x* factorial(x-1);
 
-    // show error if the user enters a negative integer
-    if (a < 0 && b < 0)
-        printf("Error! FACTORIAL NEGATIVO NO EXISTE");
+if(x==1)
+return 1;
+r2= y* factorial(y-1);
 
-    else
-    {
-        for(c=1; c<=a; ++c)
-        {
-            factoriala *= c;              // factorial = factorial*i;
-        }
-        printf("Factorial de %d = %llu\n", a, factoriala);
-
-        for(d=1; d<=b; ++d)
-        {
-            factorialb *= d;              // factorial = factorial*i;
-        }
-        printf("Factorial of %d = %llu", b, factorialb);
-    }
-
-    return 0;
+return (r1 , r2);
 }
