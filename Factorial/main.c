@@ -1,6 +1,6 @@
 #include <stdio.h>
 int factorial(int x, int y);
-int main()
+int main(void)
 {
 int a, b , r1 , r2;
 printf("\nIngrese numero:");
@@ -13,8 +13,8 @@ printf("\nEl factorial de B es %d",r2);
 }
 int factorial(int x, int y)
 {
-int r1;
-int r2;
+int r1, r2;
+r1 , r2 = factorial(x,y);
 
 if(x==1)
 return 1;
