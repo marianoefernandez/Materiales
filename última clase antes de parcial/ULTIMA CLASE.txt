@@ -1,0 +1,69 @@
+eEmpleado (Struct Principal)
+eSector
+eFecha
+eMenu
+eAlmuerzo
+
+eSector sectores [5] = {1,"RRHH", 2,"Sectores", 3,"Ventas"};
+eSector menues [10] = {1,"Sopa", 2,"Ensalada", 3,"Milanesas"};
+
+tengo que tener en el examén:
+main.c
+empleado.c
+empleado.h
+input.c
+input.h
+
+No se puede bajar y modificar si no se da el alta primero
+
+
+for (sect i)
+	for (emp j)
+		if (i == j)
+
+typedef struct 
+{
+	(desarrollos)
+	int idsector
+}eEmpleado  ------(flecha) No pongo la struct del sector.
+
+eEmpleado [100] (flecha) 
+
+eAlmuerzo [1000] (flecha) empleadoLegajo/menuCodigo/fecha.
+
+LEGAJO AUTOINCREMENTAL:
+
+Damos alta a todo. menos el legajo, declarando una variable inicializandose en 0 y incrementandose de uno.
+eEmpleado [i].legajo = legajo aux+1
+legajoaux++; //Antes de terminar el alta.
+empleados [i].isEmpty=0;
+
+Para borrarlo lo doy de baja es un isEmpty con una baja lógica en cero.
+isEmpty = 1
+
+
+
+eMenu [10] ? for (empleados)
+		for (almuerzo) j
+		if == almuerzoEmpleadoLegajo
+			for (menu) k
+
+Función para hardcodear.
+
+eSector sectores [5]; //main
+
+void init (eSectror sectores [], int cantidad); //prototipo
+
+int (sectores, CANT-SECTOR);
+
+void init (eSector sectores [], int cantidad);
+
+eSector sec [] = {Hardcodeo};
+
+for (i= 0 < cantidad, i++)
+{
+	sectores [i].id = sec [i].id;
+	strcpy (sectores [i].descripcion, sec [i].descripcion);
+}
+
+modificar con un menú.
