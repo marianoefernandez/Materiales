@@ -121,3 +121,4 @@ int main()
 
     return 0;
 }
+//PARA LOS ENTEROS SE ANTEPONE UN (&) PARA LOS CHAR NOP.
