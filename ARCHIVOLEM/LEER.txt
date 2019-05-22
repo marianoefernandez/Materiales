@@ -1,0 +1,3 @@
+-HACER UN ABM CON BAJA LOGICA isEmpty (Legajo)
+-Modificacion (Nombre/edad)
+
