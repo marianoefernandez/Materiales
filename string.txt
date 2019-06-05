@@ -1,1 +1,3 @@
-Los Strings: referencia/mensaje/error/MIN/MAX
+Los Strings:
+get + referencia/mensaje/error/MIN/MAX
+set + nombre/pos array
