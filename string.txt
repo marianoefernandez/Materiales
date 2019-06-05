@@ -1,0 +1,1 @@
+Los Strings: referencia/mensaje/error/MIN/MAX
