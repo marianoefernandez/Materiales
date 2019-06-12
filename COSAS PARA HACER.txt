@@ -1,0 +1,8 @@
+-Terminar cap 5
+-Poner en practica, hacer tp2
+-Realizar ejercicios con ordenamiento y estructuras
+-Realizar 1er Parcial completo
+
+-Resumir todo lo teorico del primer parcial
+-Hacer tp 3 y tp 4
+-Realizar ejercicios de ordenamiento, estructuras y arrays con Memoria dinámica
