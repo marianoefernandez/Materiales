@@ -1,4 +1,5 @@
 -Terminar cap 5
+-Entender antirebote
 -Poner en practica, hacer tp2
 -Realizar ejercicios con ordenamiento y estructuras
 -Saber manejar strings
