@@ -1,6 +1,7 @@
 -Terminar cap 5
 -Poner en practica, hacer tp2
 -Realizar ejercicios con ordenamiento y estructuras
+-Saber manejar strings
 -Realizar 1er Parcial completo
 
 -Resumir todo lo teorico del primer parcial
